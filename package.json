@@ -1,0 +1,48 @@
+{
+  "name": "express-auth-api",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "npx tsc",
+    "start": "node dist/index.js",
+    "dev": "npx dotenv -- nodemon src/index.ts",
+    "test": "jest",
+    "test:watch": "jest --watch",
+    "lint": "eslint"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "dependencies": {
+    "@types/express": "^5.0.6",
+    "@types/node": "^25.0.3",
+    "cors": "^2.8.5",
+    "express": "^5.2.1",
+    "jiti": "^2.6.1",
+    "morgan": "^1.10.1",
+    "ts-node": "^10.9.2",
+    "typecript": "^0.0.1-security"
+  },
+  "devDependencies": {
+    "@eslint/js": "^9.39.2",
+    "@types/cors": "^2.8.19",
+    "@types/jest": "^30.0.0",
+    "@types/morgan": "^1.9.10",
+    "dotenv-cli": "^11.0.0",
+    "eslint": "^9.39.2",
+    "eslint-config-prettier": "^10.1.8",
+    "eslint-plugin-jest": "^29.11.0",
+    "eslint-plugin-prettier": "^5.5.4",
+    "globals": "^16.5.0",
+    "jest": "^30.2.0",
+    "nodemon": "^3.1.11",
+    "prettier": "^3.7.4",
+    "ts-jest": "^29.4.6",
+    "typescript-eslint": "^8.50.1"
+  },
+  "overrides": {
+    "eslint": "^9.39.2"
+  }
+}
